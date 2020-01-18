@@ -23,7 +23,7 @@ def end_game(card_total)
 end
 
 def initial_round
- card_total = 0
+  card_total = 0
   card_total = card_total + deal_card
   card_total = card_total + deal_card
   display_card_total(card_total) 
@@ -35,7 +35,7 @@ def hit?
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
