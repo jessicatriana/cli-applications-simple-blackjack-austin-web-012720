@@ -30,9 +30,10 @@ def initial_round
   card_total
 end
 
-def hit?
+def hit?(card_total)
   prompt_user
-  response = get_user_input
+  get_user_input
+  if 
 end
 
 def invalid_command
